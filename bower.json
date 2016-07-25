@@ -1,0 +1,29 @@
+{
+  "name": "date-republicain",
+  "description": "Gregorian to republicain date converter",
+  "main": "date-republicain.js",
+  "authors": [
+    "Vlad Riabchenko"
+  ],
+  "license": "BSD-2-Clause",
+  "keywords": [
+    "date",
+    "rebublique",
+    "France",
+    "calendar"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "homepage": "https://vria.eu/date-republicain",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "moment": "^2.14.1"
+  }
+}

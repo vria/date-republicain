@@ -1,0 +1,20 @@
+{
+  "name": "date-republicain",
+  "version": "0.0.1",
+  "description": "Gregorian to republicain date converter",
+  "main": "date-republicain.js",
+  "scripts": {
+    "test:run": "karma start test/karma.conf.js"
+  },
+  "author": "Vlad Riabchenko",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "karma": "~1.1.1",
+    "karma-jasmine": "~1.0.2",
+    "karma-chrome-launcher": "~1.0.1",
+    "jasmine-core": "~2.4.1"
+  },
+  "dependencies": {
+    "moment": "~2.14.1"
+  }
+}
