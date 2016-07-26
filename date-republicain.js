@@ -14,7 +14,7 @@ var getRepublicainDate = function (dateInput) {
                 {name: "Safran", link: ""},
                 {name: "Châtaigne", link: ""},
                 {name: "Colchique", link: ""},
-                {name: "Raisin", link: ""},
+                {name: "Cheval", link: ""},
                 {name: "Raisin", link: ""},
                 {name: "Raisin", link: ""},
                 {name: "Raisin", link: ""},
