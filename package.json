@@ -4,7 +4,9 @@
   "description": "Gregorian to republicain date converter",
   "main": "date-republicain.js",
   "scripts": {
-    "test:run": "karma start test/karma.conf.js"
+    "test:run": "karma start test/karma.conf.js",
+    "preupdate-webdriver": "npm install",
+    "update-webdriver": "webdriver-manager update"
   },
   "author": "Vlad Riabchenko",
   "license": "BSD-2-Clause",
