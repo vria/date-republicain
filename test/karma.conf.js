@@ -1,6 +1,4 @@
 // Karma configuration
-// Generated on Fri Jul 22 2016 21:48:04 GMT+0200
-
 module.exports = function(config) {
   config.set({
 
@@ -15,8 +13,6 @@ module.exports = function(config) {
     ],
 
     reporters: ['progress'],
-
-    port: 9876,
 
     colors: true,
 
