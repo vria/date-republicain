@@ -34,5 +34,7 @@ Use `getRepublicainDate` function to get the corresponding republicain date. The
 - `year` [integer]
 - `month` [integer] from 1 to 13, where 1 corresponds to 'Vendémiaire', 2 corresponds to 'Brumaire', ..., 12 corresponds to 'Fructidor', 13 corresponds to 'Jours complémentaires' 
 - `monthName` [string] contains month name ('Vendémiaire', 'Brumaire', ..., 'Jours complémentaires')
+- `monthLink` [string] Wikipedia link for `monthName`
 - `day` [integer] day number from 1 to 30. For 'Jours complémentaires' `day` is in range from 1 to 5 (or from 1 to 6 for leap year)
 - `dayName` [string] each day in Republican Calendar is given a name: 'Raisin', 'Safran', 'Châtaigne', ..., 'Jour des récompenses', 'Jour de la révolution'
+- `dayLink` [string] Wikipedia link for `dayName`
