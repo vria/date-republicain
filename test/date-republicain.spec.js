@@ -353,8 +353,4 @@ describe("Calendrier republicain", function() {
     it("1806-09-22 is Jour des récompenses 14", function() {
         expect(getRepublicainDate("1806-09-22").toString()).toBe("Jour des récompenses an 14");
     });
-
-    /* * * *
-     * An 223
-     * * * */
 });
