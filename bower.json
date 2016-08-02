@@ -2,7 +2,7 @@
   "name": "date-republicain",
   "description": "Gregorian to republicain date converter",
   "main": "date-republicain.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "authors": [
     "Vlad Riabchenko"
   ],

@@ -1,6 +1,6 @@
 {
   "name": "date-republicain",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Gregorian to republicain date converter",
   "main": "date-republicain.js",
   "scripts": {
