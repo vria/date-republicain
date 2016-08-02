@@ -5,6 +5,25 @@ var getRepublicainDate = function (dateInput) {
         return (this.month == 13 ? this.dayName : this.day + ' ' + this.monthName) + ' an ' + this.year;
     };
 
+    function romanize(num) {
+        if (!+num) {
+            return false;
+        }
+
+        var digits = String(+num).split(""),
+            key = ["","C","CC","CCC","CD","D","DC","DCC","DCCC","CM",
+                "","X","XX","XXX","XL","L","LX","LXX","LXXX","XC",
+                "","I","II","III","IV","V","VI","VII","VIII","IX"],
+            roman = "",
+            i = 3;
+
+        while (i--) {
+            roman = (key[+digits.pop() + (i * 10)] || "") + roman;
+        }
+
+        return Array(+digits.join("") + 1).join("M") + roman;
+    }
+
     var table = [
         {
             name: "Vendémiaire",
@@ -475,6 +494,8 @@ var getRepublicainDate = function (dateInput) {
             rep.day = dayIndex + 1;
             rep.dayName = table[monthIndex].days[dayIndex].name;
             rep.dayLink = table[monthIndex].days[dayIndex].link;
+            rep.romainYear = romanize(rep.year);
+
             break;
         }
     }
