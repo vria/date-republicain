@@ -32,6 +32,7 @@ Use `getRepublicainDate` function to get the corresponding republicain date. The
 
 `getRepublicainDate` returns an object with properties:
 - `year` [integer]
+- `romainYear` [string] year represented by Roman numerals
 - `month` [integer] from 1 to 13, where 1 corresponds to 'Vendémiaire', 2 corresponds to 'Brumaire', ..., 12 corresponds to 'Fructidor', 13 corresponds to 'Jours complémentaires' 
 - `monthName` [string] contains month name ('Vendémiaire', 'Brumaire', ..., 'Jours complémentaires')
 - `monthLink` [string] Wikipedia link for `monthName`
