@@ -479,7 +479,7 @@ var getRepublicainDate = function (dateInput) {
     rep.year = 1;
 
     while (days >= 0) {
-        var leapYear = (rep.year + 1) % 4 == 0;
+        var leapYear = ((rep.year + 1) % 4 == 0 && (rep.year + 1) % 100 != 0) || (rep.year + 1) % 400 ;
 
         if (days >= (leapYear ? 366 : 365)) {
             rep.year++;
