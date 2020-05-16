@@ -1,6 +1,7 @@
 # date-republicain
 
 [![Build Status](https://travis-ci.org/vria/date-republicain.svg?branch=master)](https://travis-ci.org/vria/date-republicain)
+[![codecov](https://codecov.io/gh/vria/date-republicain/branch/master/graph/badge.svg)](https://codecov.io/gh/vria/date-republicain)
 
 This library is a gregorian to republicain date converter.
 
