@@ -1,0 +1,18 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true
+  },
+  "rules": {
+    "no-ternary": "off",
+    "sort-vars": "off",
+    "init-declarations" : "off",
+    "max-statements": ["error", 20],
+    "no-extra-parens": ["error", "functions"],
+    "func-names": ["error", "as-needed"],
+    "one-var": ["error", "consecutive"],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "no-magic-numbers": ["error", { "ignore": [0, 1] }]
+  },
+  "extends": "eslint:all"
+}

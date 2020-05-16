@@ -1,23 +1,37 @@
 {
-  "name": "date-republicain",
-  "version": "0.0.3",
-  "description": "Gregorian to republicain date converter",
-  "main": "date-republicain.js",
-  "scripts": {
-    "test:run": "karma start test/karma.conf.js",
-    "update-webdriver": "webdriver-manager update"
-  },
-  "author": "Vlad Riabchenko",
-  "license": "BSD-2-Clause",
-  "devDependencies": {
-    "jasmine-core": "~2.4.1",
-    "karma": "~1.1.1",
-    "karma-chrome-launcher": "~1.0.1",
-    "karma-firefox-launcher": "^1.0.0",
-    "karma-jasmine": "~1.0.2",
-    "webdriver-manager": "^10.2.1"
-  },
-  "dependencies": {
-    "moment": "~2.14.1"
-  }
+    "name": "date-republicain",
+    "version": "1.0.0",
+    "description": "Gregorian to republicain date converter",
+    "homepage": "https://vria.eu/online_converter_of_gregorian_dates_to_republican_dates/",
+    "main": "src/date-republicain.js",
+    "scripts": {
+        "build": "webpack --mode=production",
+        "dev": "webpack --mode=development",
+        "test": "jest --coverage"
+    },
+    "author": "Vlad Riabchenko",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vria/date-republicain.git"
+    },
+    "bugs": {
+        "url": "https://github.com/vria/date-republicain/issues"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "^7.9.6",
+        "@babel/preset-env": "^7.9.6",
+        "babel-eslint": "^10.1.0",
+        "babel-jest": "^25.5.1",
+        "babel-loader": "^8.1.0",
+        "eslint": "^6.8.0",
+        "eslint-loader": "^4.0.2",
+        "jest": "^25.5.4",
+        "jsdom": "^16.2.2",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11"
+    },
+    "dependencies": {
+        "moment": "^2.25.2"
+    }
 }
